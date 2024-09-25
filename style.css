@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: white;
   font-family: "Arial Narrow";
@@ -14,16 +14,16 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 #contents input {
   font-family: sans-serif;
-  width: 400px;
+  width: 300px;
   outline: 0;
   padding: 10px;
   border: 2px white solid;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   background-color: black;
 }
 #contents canvas {
@@ -33,12 +33,12 @@ h1 {
   font-family: sans-serif;
   cursor: pointer;
   margin-top: 50px;
-  width: 400px;
+  width: 300px;
   outline: 0;
   padding: 10px;
   border: 2px white solid;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   background-color: black;
   transition: all 0.2s;
 }
@@ -57,7 +57,7 @@ h1 {
 footer {
   background-color: black;
   position: absolute;
-  font-size: 25px;
+  font-size: 20px;
   bottom: 0;
   color: white;
   width: 100%;
