@@ -6,7 +6,7 @@ ctx.fillRect(0, 0, canvas.width, canvas.height)
 ctx.fillStyle = "black"
 ctx.filter = "blur(1.5px)";
 let check = document.getElementById("check")
-ctx.font = "90px Arial Narrow";
+ctx.font = "75px Arial Narrow";
 
 setInterval(()=>{
   ctx.clearRect(0,0,500,500)
