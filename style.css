@@ -1,1 +1,68 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background: rgb(30, 29, 29);
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  font-family: "Arial Narrow";
+}
+
+#contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+#contents input {
+  font-family: sans-serif;
+  width: 400px;
+  outline: 0;
+  padding: 10px;
+  border: 2px white solid;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+}
+#contents canvas {
+  margin-top: 30px;
+}
+#contents button {
+  font-family: sans-serif;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 400px;
+  outline: 0;
+  padding: 10px;
+  border: 2px white solid;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  transition: all 0.2s;
+}
+#contents button:hover {
+  color: black;
+  background-color: #89cc04;
+}
+
+#check {
+  position: absolute;
+  font-size: 55px;
+  font-family: "Arial Narrow";
+  opacity: 0;
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  font-size: 25px;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */
