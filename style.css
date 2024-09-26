@@ -16,7 +16,7 @@ h1 {
   align-items: center;
   margin-top: -30px;
 }
-#contents input {
+#contents textarea {
   font-family: sans-serif;
   width: 300px;
   outline: 0;
@@ -65,4 +65,10 @@ footer {
 }
 footer p {
   margin: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    bottom: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

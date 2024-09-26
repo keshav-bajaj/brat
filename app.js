@@ -19,7 +19,14 @@ setInterval(()=>{
   ctx.save();
   ctx.scale(100 / 135, 1)
   ctx.textAlign = "center"
-  ctx.fillText(text, canvas.width / 2 * (135 / 100), canvas.width / 2 + 15)
+  let textArray = text.split("\n")
+  let tick = 0
+  let margin = (400-textArray.length*75)/2
+
+  textArray.forEach((a) =>{
+    ctx.fillText(a, canvas.width / 2 * (135 / 100), margin + 75*tick +60 )
+    tick++
+  })
   ctx.restore();
 },200)
 
